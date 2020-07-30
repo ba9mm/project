@@ -1,0 +1,89 @@
+@import "normalize.css";
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.hank-image {
+  background-image: url(https://cdn.glitch.com/7ac41152-fe65-490d-b4d8-ba79407977b9%2Fhank-aaron.jpg?v=1596047319211);
+  /*   Using Flexbox */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 150vh;
+  width: 100vw;
+  color: black;
+  text-align: center;
+  line-height: 35%;
+}
+
+.top-heading {
+  margin-left: auto;
+  margin-right: auto;
+  width: 43em;
+  position: relative;
+  top: 10px;
+  font-size: 15px;
+  background-color: rgba(211, 211, 211, 0.65);
+  color: black;
+  line-height: 85%;
+}
+
+.stat1 {
+  text-align: left;
+  margin-left: 10px;
+  width: 25em;
+  font-size: 20px;
+  background-color: rgba(211, 211, 211, 0.65);
+}
+.stat2 {
+  margin-left: 765px;
+  width: 25em;
+  text-align: right;
+  font-size: 20px;
+  background-color: rgba(211, 211, 211, 0.65);
+  display: flex;
+  flex-direction: row;
+}
+
+.stat3 {
+  text-align: left;
+  margin-left: 10px;
+  width: 25em;
+  font-size: 20px;
+  background-color: rgba(211, 211, 211, 0.65);
+}
+
+.stat4 {
+  margin-left: 765px;
+  width: 25em;
+  text-align: right;
+  font-size: 20px;
+  background-color: rgba(211, 211, 211, 0.65);
+}
+
+.stat5 {
+  text-align: left;
+  margin-left: 10px;
+  width: 25em;
+  font-size: 20px;
+  background-color: rgba(211, 211, 211, 0.65);
+  display: flex;
+  flex-direction: row;
+}
+
+.stat6 {
+  margin-left: 765px;
+  width: 25em;
+  text-align: right;
+  font-size: 20px;
+  background-color: rgba(211, 211, 211, 0.65);
+}
+.footer {
+  color: white;
+  background-color: silver;
+}
