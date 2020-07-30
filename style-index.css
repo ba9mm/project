@@ -128,7 +128,34 @@ a {
   margin: 25px;
   text-decoration: none;
 }
+.third-image {
+  background-image: url(https://cdn.glitch.com/7ac41152-fe65-490d-b4d8-ba79407977b9%2Fsuntrust-park-home-plate.jpg?v=1596121007261);
+  /*   Using Flexbox */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
 .footer {
   color: white;
   background-color: silver;
+}
+
+.source {
+  margin-left: auto;
+  margin-right: auto;
+  width: 43em;
+  font-size: 14px;
+  background-color: rgba(211, 211, 211, 0.65);
+  border: 10px dashed #87CEFA;
+  color: black;
+  text-align: left;
+  
 }
